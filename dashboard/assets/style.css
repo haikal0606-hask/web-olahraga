@@ -1,0 +1,194 @@
+/* Reset dan pengaturan dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header {
+    position: fixed;
+    top: 0;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    background-color: #007bff;
+  }
+
+  .btn-lihat{
+    text-decoration: none;
+    background-color: #ffb703;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+
+  nav{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Header (Hero Section) */
+  main .hero {
+    margin-top: 100px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
+  }
+  
+  main .hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  
+  main .hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  main .hero button {
+    background-color: #ffb703;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  main .hero button:hover {
+    background-color: #fca311;
+  }
+  
+  /* Bagian Konten */
+  article, section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
+  }
+  
+  article h2,section h2 {
+    color: #007bff;
+    margin-bottom: 15px;
+  }
+  
+  section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  article p, section p, section li {
+    font-size: 1em;
+    margin-bottom: 10px;
+  }
+  
+  /* Form Pendaftaran */
+  form {
+    
+    display: flex;
+    flex-direction: column;
+  }
+
+  #form h2{
+    width: 100%;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    background-color: #007bff;
+  }
+  
+  form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="tel"],
+  form select,
+  form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #111;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  form button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .penjelasan{
+    max-width: 800px;
+    display: flex;
+    gap: 10px;
+}
+
+  .penjelasan section{
+    border: 1px solid black;
+    
+  }
+
+  footer{
+    display: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #007bff;
+  }
+
+  footer p{
+    text-align: center;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+  }
+
+  #form{
+    margin-top: 20px;
+  }
+
+  .gambar-container{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    padding: 20px;
+    gap: 20px;
+    justify-content: center;
+    background-color: #007bff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  .gambar-container img{
+    border-radius: 5px;
+    width: 33.333%;
+    object-fit: cover;
+    object-position: center;
+  }
+  
